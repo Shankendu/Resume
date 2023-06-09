@@ -1,0 +1,398 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 1rem;
+}
+h1 {
+  color: #fde2f3;
+  font-size: 6.5rem;
+  font-family: "Playfair Display SC", serif;
+  margin: 0 auto 0 auto;
+}
+h2 {
+  color: #917fb3;
+  font-size: 4rem;
+  font-family: "Oswald", sans-serif;
+  margin: 0 auto 0 auto;
+}
+h3 {
+  color: #e5beec;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto 0 auto;
+}
+a {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+p {
+  color: #fde2f3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  margin: 0 auto 0 auto;
+  line-height: 1.5;
+}
+hr {
+  clear: right;
+  border: 7px dotted #494d67;
+  border-bottom: none;
+  width: 3%;
+  margin: 0 auto 0 auto;
+}
+.heading {
+  width: 80%;
+  padding-top: 80px;
+  line-height: 1;
+  margin-bottom: 50px;
+  text-shadow: 15px 20px 30px rgb(78, 82, 106);
+}
+.desc {
+  margin: 0 auto 20px auto;
+  width: 80%;
+  line-height: 1.2;
+}
+.first-section {
+  padding-bottom: 160px;
+  background-color: #131524;
+  position: relative;
+  margin: 0 auto 0 auto;
+}
+.star {
+  margin-right: 70px;
+  height: 100px;
+  position: absolute;
+  right: 20px;
+  top: 150px;
+}
+.two-star {
+  height: 100px;
+  position: absolute;
+  left: 250px;
+  top: 350px;
+}
+.profile-picture {
+  width: 25%;
+  margin: 0 auto 0 auto;
+}
+.bio {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  width: 37%;
+}
+.second-section,
+.third-section,
+.contact {
+  background-color: #2a2f4f;
+  margin: 0 auto 0 auto;
+}
+.skills {
+  margin: 0 auto 0 auto;
+  padding: 100px 0;
+}
+.design {
+  margin: 0;
+  float: left;
+  padding-left: 270px;
+  position: relative;
+  bottom: 30px;
+}
+.piano {
+  float: right;
+  padding-top: 100px;
+  padding-right: 270px;
+  padding-bottom: 100px;
+}
+.d1,
+.d1p {
+  text-align: left;
+  width: 50%;
+  padding-left: 25rem;
+  padding-top: 20px;
+}
+
+.d2,
+.d2p {
+  clear: left;
+  text-align: left;
+  width: 50%;
+  padding-top: 20px;
+}
+.contact {
+  padding-bottom: 100px;
+}
+.contact > h2 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.contact > h3 {
+  padding-bottom: 30px;
+}
+.contact > p {
+  width: 40%;
+  padding-bottom: 30px;
+}
+.button > a {
+  background-color: #131524;
+  color: #2a2f4f;
+  font-size: 1.5rem;
+  -webkit-text-stroke-width: 2px;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 20px;
+}
+a:hover {
+  color: #494d67;
+}
+.social {
+  background-color: #131524;
+  padding: 70px 0 50px;
+}
+.social > a:hover {
+  color: #494d67;
+}
+footer {
+  color: rgb(176, 202, 202);
+  padding-top: 40px;
+}
+.social img {
+  width: 2%;
+}
+.social a {
+  -webkit-text-stroke-width: 2px;
+  font-size: 1.5rem;
+  display: inline-block;
+  margin: 40px 50px 40px 5px;
+  color: #2a2f4f;
+  text-decoration: none;
+  position: relative;
+  bottom: 10px;
+}
+.shortlinks {
+  padding-top: 100px;
+}
+.shortlinks a {
+  font-size: 1.5rem;
+  color: #bac1f5;
+  text-decoration: none;
+  margin: 0 30px;
+}
+.shortlinks a:hover {
+  color: #2a2f4f;
+}
+.first-section a {
+  font-size: 3rem;
+}
+
+@media (max-width: 1000px) {
+  body {
+    text-align: center;
+  }
+  h1 {
+    font-size: 4.5rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .heading {
+    height: 100%;
+    width: 100%;
+  }
+  .desc {
+    width: 70%;
+  }
+  .first-section {
+    height: 100%;
+    text-align: center;
+  }
+  .first-section a {
+    font-size: 2.5rem;
+  }
+  .star {
+    height: 80px;
+    position: absolute;
+    top: 150px;
+    right: 20px;
+  }
+  .two-star {
+    height: 80px;
+    position: absolute;
+    left: 130px;
+    top: 330px;
+  }
+  .second-section {
+    text-align: center;
+    object-fit: fill;
+  }
+  .profile-picture {
+    margin: 0 auto 0 auto;
+    width: 40%;
+  }
+  .design{
+    padding-left: 0;
+    float: none;
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+  .piano{
+    padding: 0;
+    float: none;
+    display: block;
+    margin: 50px auto 50px auto;
+  }
+  .d1{
+    font-size: 2.5rem;
+    display: block;
+    padding-left: 0;
+    text-align: center;
+  } 
+  .d1p{
+display: inline-block;
+padding-left: 0;
+text-align: center;
+width: 50%;
+  }
+  .d2{
+display: block;
+text-align: center;
+  } 
+  .d2p{
+    display: inline-block;
+text-align: center;
+padding-bottom: 100px;
+  }
+  .contact h2{
+    padding-top: 100px;
+  }
+  .contact p{
+    margin-bottom: 30px;
+  }
+  .button > a {
+    -webkit-text-stroke-width: 2px;
+    text-decoration: none;
+    padding: 30px 40px;
+    border-radius: 20px;
+}
+.social{
+  margin: 0 auto 0 auto;
+}
+.social img{
+  width: 40px;
+}
+.social a{
+  margin-right: 80px;
+}
+footer{
+  font-size: 5px;
+}
+}
+@media (min-width:1001px) and (max-width:1500px){
+  h1 {
+    font-size: 4.5rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .heading {
+    height: 100%;
+    width: 100%;
+  }
+  .desc {
+    width: 70%;
+  }
+  .first-section {
+    height: 100%;
+    text-align: center;
+  }
+  .first-section a {
+    font-size: 2.5rem;
+  }
+  .star {
+    height: 80px;
+    position: absolute;
+    top: 150px;
+    right: 20px;
+  }
+  .two-star {
+    height: 80px;
+    position: absolute;
+    left: 130px;
+    top: 330px;
+  }
+  .second-section {
+    text-align: center;
+    object-fit: fill;
+  }
+  .profile-picture {
+    margin: 0 auto 0 auto;
+    width: 40%;
+  }
+  .design{
+    padding-left: 0;
+    float: none;
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+  .piano{
+    padding: 0;
+    float: none;
+    display: block;
+    margin: 50px auto 50px auto;
+  }
+  .d1{
+    font-size: 2.5rem;
+    display: block;
+    padding-left: 0;
+    text-align: center;
+  } 
+  .d1p{
+display: inline-block;
+padding-left: 0;
+text-align: center;
+width: 50%;
+  }
+  .d2{
+display: block;
+text-align: center;
+  } 
+  .d2p{
+    display: inline-block;
+text-align: center;
+padding-bottom: 100px;
+  }
+  .contact h2{
+    padding-top: 100px;
+  }
+  .contact p{
+    margin-bottom: 30px;
+  }
+  .button > a {
+    -webkit-text-stroke-width: 2px;
+    text-decoration: none;
+    padding: 30px 40px;
+    border-radius: 20px;
+}
+.social{
+  margin: 0 auto 0 auto;
+}
+.social img{
+  width: 40px;
+}
+.social a{
+  margin-right: 80px;
+}
+
+}
+
